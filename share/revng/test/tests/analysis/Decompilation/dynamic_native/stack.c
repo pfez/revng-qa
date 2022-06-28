@@ -17,6 +17,6 @@ int stack() {
   return 0;
 }
 
-int main() {
+int themain() {
   return stack_struct() + stack();
 }
