@@ -4,6 +4,7 @@ tags:
       CFLAGS:
         - -fno-inline
         - -O2
+        - -c
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
