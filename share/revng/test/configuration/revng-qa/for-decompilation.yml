@@ -11,3 +11,4 @@ sources:
     - tests/analysis/Decompilation/dynamic_native/array.c
     - tests/analysis/Decompilation/dynamic_native/linked_list.c
     - tests/analysis/Decompilation/dynamic_native/array_of_structs.c
+    - tests/analysis/Decompilation/dynamic_native/stack.c
