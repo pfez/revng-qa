@@ -6,6 +6,8 @@ tags:
         - -O2
         - -shared
         - -fvisibility=protected
+        - -fno-stack-protector
+        - -fno-stack-check
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
