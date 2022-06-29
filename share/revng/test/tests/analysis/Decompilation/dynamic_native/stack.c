@@ -7,13 +7,13 @@ struct struct_t {
 
 extern void init_struct(struct struct_t *s);
 
-int stack_struct() {
+static int stack_struct() {
   struct struct_t s;
   init_struct(&s);
   return s.w + s.x + s.w + s.z;
 }
 
-int stack() {
+static int stack() {
   return 0;
 }
 
