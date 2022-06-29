@@ -14,7 +14,7 @@ static int stack_struct() {
 }
 
 static int stack() {
-  return 0;
+  return 1;
 }
 
 int themain() {
