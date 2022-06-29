@@ -5,7 +5,10 @@ struct struct_t {
   char z;
 };
 
+extern struct struct_t TheS;
+
 void init_struct(struct struct_t *s) {
+  *s = TheS;
   return;
 }
 
