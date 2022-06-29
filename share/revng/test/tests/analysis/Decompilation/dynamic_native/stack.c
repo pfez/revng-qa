@@ -1,4 +1,4 @@
-struct struct_t {
+__attribute__((packed)) struct struct_t {
   long long w;
   int x;
   char y;
