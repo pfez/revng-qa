@@ -5,6 +5,7 @@ tags:
         - -fno-inline
         - -O2
         - -shared
+        - -fvisibility=protected
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
