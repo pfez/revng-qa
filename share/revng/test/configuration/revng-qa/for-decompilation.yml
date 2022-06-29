@@ -9,6 +9,9 @@ tags:
         - -fno-stack-protector
         - -fno-stack-check
         - -fPIC
+        - -mno-sse
+        - -mno-avx
+        - -mno-mmx
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
