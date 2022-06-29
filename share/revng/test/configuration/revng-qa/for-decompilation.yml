@@ -8,6 +8,7 @@ tags:
         - -fvisibility=protected
         - -fno-stack-protector
         - -fno-stack-check
+        - -fPIC
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
