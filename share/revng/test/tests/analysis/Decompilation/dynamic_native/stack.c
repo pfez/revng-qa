@@ -5,7 +5,9 @@ struct struct_t {
   char z;
 };
 
-extern void init_struct(struct struct_t *s);
+void init_struct(struct struct_t *s) {
+  return;
+}
 
 static int stack_struct() {
   struct struct_t s;
