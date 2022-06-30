@@ -12,7 +12,7 @@ tags:
         - -mno-sse
         - -mno-avx
         - -mno-mmx
-        - -fnooptimize-sibling-calls
+        - -fno-optimize-sibling-calls
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
