@@ -25,12 +25,12 @@ void setz(struct struct_t *S) {
   S->z = TheS.z;
 }
 
-void init_struct(struct struct_t *s) {
+struct struct_t *init_struct(struct struct_t *s) {
   setw(s);
   setx(s);
   sety(s);
   setz(s);
-  return;
+  return s;
 }
 
 static uint64_t stack_struct() {
