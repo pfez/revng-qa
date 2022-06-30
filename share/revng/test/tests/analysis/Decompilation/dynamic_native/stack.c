@@ -33,6 +33,12 @@ struct struct_t *init_struct(struct struct_t *s) {
   return s;
 }
 
+int return17() {
+  int x = 3;
+  int y = 14;
+  return x + y;
+}
+
 static uint64_t stack_struct() {
   struct struct_t s;
   init_struct(&s);
@@ -41,5 +47,5 @@ static uint64_t stack_struct() {
 
 int themain() {
   uint64_t x = stack_struct();
-  return (x >> 32) | (x & 0xFFFFFFFFU);
+  return ((x >> 32) | (x & 0xFFFFFFFFU)) + return17();
 }

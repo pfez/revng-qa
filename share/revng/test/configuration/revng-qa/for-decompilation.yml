@@ -3,7 +3,7 @@ tags:
     variables:
       CFLAGS:
         - -fno-inline
-        - -O2
+        - -O0
         - -shared
         - -fvisibility=protected
         - -fno-stack-protector
