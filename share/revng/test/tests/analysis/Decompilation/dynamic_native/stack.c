@@ -7,8 +7,27 @@ __attribute__((packed)) struct struct_t {
 
 extern struct struct_t TheS;
 
+void setw(struct struct_t *S) {
+  S->w = TheS.w;
+}
+
+void setx(struct struct_t *S) {
+  S->x = TheS.x;
+}
+
+void sety(struct struct_t *S) {
+  S->y = TheS.y;
+}
+
+void setz(struct struct_t *S) {
+  S->z = TheS.z;
+}
+
 void init_struct(struct struct_t *s) {
-  *s = TheS;
+  setw(s);
+  setx(s);
+  sety(s);
+  setz(s);
   return;
 }
 
