@@ -36,7 +36,7 @@ struct struct_t *init_struct(struct struct_t *s) {
 static uint64_t stack_struct() {
   struct struct_t s;
   init_struct(&s);
-  return s.w + s.x + s.w + s.z;
+  return s.w + s.x + s.y + s.z;
 }
 
 int themain() {
