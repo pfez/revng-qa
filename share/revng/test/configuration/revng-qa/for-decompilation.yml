@@ -8,11 +8,11 @@ tags:
         - -fvisibility=protected
         - -fno-stack-protector
         - -fno-stack-check
+        - -fPIC
         - -mno-sse
         - -mno-avx
         - -mno-mmx
         - -fno-optimize-sibling-calls
-          #- -fPIC
 sources:
   - tags: [dynamic, native, for-decompilation]
     members:
